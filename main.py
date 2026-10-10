@@ -9,7 +9,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from psycopg.rows import dict_row
 
-from app.models import Issue, IssueCreate
+from models import Issue, IssueCreate
 
 load_dotenv()
 
